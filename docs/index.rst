@@ -1,5 +1,5 @@
 Welcome to WRIMS's documentation!
-===================================
+=================================
 
 .. note::
 
@@ -8,8 +8,6 @@ Welcome to WRIMS's documentation!
 Contents
 --------
 
-.. toctree::
-
-   wrims-engine
-   wrims-gui
-   wresl
+- :ref:`wrims-engine:home`
+- :ref:`wrims-gui:home`
+- :ref:`wrims-wresl:home`
