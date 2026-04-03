@@ -62,7 +62,7 @@ WRESL+
 - The WRESL+ style guide.
 
 +------+---------------------------------------------+
-| Docs | :ref:`WRESL+ Docs<wrims-engine:home>`       |
+| Docs | :ref:`WRESL+ Docs<wresl:home>`       |
 +------+---------------------------------------------+
 | Code | `WRESL+ Repo`_                              |
 +------+---------------------------------------------+
