@@ -5,6 +5,7 @@ Site Index
 **********
 
 .. toctree::
-    
-    Home<home>
+    :maxdepth: 2
+
+    All WRIMS Docs<home>
     Contribute<contribution-guide>

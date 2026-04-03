@@ -12,8 +12,8 @@ open-source project led by the Department of Water Resources. If you are an exte
 collaborator, please let us know if you have any questions about contributing by 
 submitting an Issue on the `WRIMS Docs Repo`_.
 
-Steps
------
+Contribution Steps
+------------------
 
 .. _requirements.txt: https://github.com/CentralValleyModeling/wrims-docs/blob/main/docs/requirements.txt
 

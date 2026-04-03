@@ -42,9 +42,9 @@ templates_path = ["_templates"]
 
 html_theme = "sphinx_rtd_theme"
 html_theme_options = {
-    "home_page_in_toc": True,
-    "max_navbar_depth": 3,
+    "navigation_depth": 2,
 }
+github_url = "https://github.com/CentralValleyModeling/wrims-docs"
 
 # -- Options for EPUB output
 epub_show_urls = "footnote"
