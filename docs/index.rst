@@ -1,13 +1,10 @@
-Welcome to WRIMS's documentation!
-=================================
+.. _index:
 
-.. note::
+**********
+Site Index
+**********
 
-   This project is under active development.
-
-Contents
---------
-
-- :ref:`wrims-engine`
-- :ref:`wrims-gui`
-- :ref:`WRESL+ <wresl:home>`
+.. toctree::
+    
+    Home<home>
+    Contribute<contribution-guide>

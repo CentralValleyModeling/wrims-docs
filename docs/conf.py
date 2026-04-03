@@ -41,6 +41,10 @@ templates_path = ["_templates"]
 # -- Options for HTML output
 
 html_theme = "sphinx_rtd_theme"
+html_theme_options = {
+    "home_page_in_toc": True,
+    "max_navbar_depth": 3,
+}
 
 # -- Options for EPUB output
 epub_show_urls = "footnote"
