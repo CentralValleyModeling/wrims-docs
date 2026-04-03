@@ -4,10 +4,10 @@
 
 project = "wrims-docs"
 copyright = "2026, CA Department of Water Resources"
-author = "Zachary Roy"
+author = "State Water Project, Modeling Support Office"
 
-release = "0.1"
-version = "0.1.0"
+release = "3.0"
+version = "3.0.0"
 
 # -- General configuration
 
