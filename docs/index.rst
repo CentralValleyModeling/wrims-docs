@@ -8,6 +8,6 @@ Welcome to WRIMS's documentation!
 Contents
 --------
 
-- :ref:`wrims-engine:home`
-- :ref:`wrims-gui:home`
-- :ref:`wrims-wresl:home`
+- :ref:`wrims-engine`
+- :ref:`wrims-gui`
+- :ref:`wrims-wresl`

@@ -21,9 +21,9 @@ extensions = [
 ]
 
 intersphinx_mapping = {
-    "wrims-engine": ("https://www.sphinx-doc.org/en/master/", None),
-    "wrims-gui": ("https://www.sphinx-doc.org/en/master/", None),
-    "wresl": ("https://www.sphinx-doc.org/en/master/", None),
+    "wrims-engine": ("https://wrims-docs.readthedocs.io/projects/wrims-engine", None),
+    "wrims-gui": ("https://wrims-docs.readthedocs.io/projects/wrims-gui", None),
+    "wresl": ("https://wrims-docs.readthedocs.io/projects/wresl", None),
 }
 intersphinx_disabled_reftypes = ["*"]
 
