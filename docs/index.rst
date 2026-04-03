@@ -10,4 +10,4 @@ Contents
 
 - :ref:`wrims-engine`
 - :ref:`wrims-gui`
-- :ref:`wrims-wresl`
+- :ref:`WRESL+ <wresl:home>`
