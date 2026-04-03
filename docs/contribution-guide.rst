@@ -17,11 +17,22 @@ Contribution Steps
 
 .. _requirements.txt: https://github.com/CentralValleyModeling/wrims-docs/blob/main/docs/requirements.txt
 
-1. Install Python
-^^^^^^^^^^^^^^^^^
+1. Install Python and git
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
 Instructions can be found elsewhere.
 
-2. Set up the environment
+- Download `Python <https://www.python.org/downloads>`__
+- Download `git scm <https://git-scm.com/install/>`__
+
+2. Clone the project
+^^^^^^^^^^^^^^^^^^^^
+
+``git clone`` the project that you want to help with. See the :ref:`home<home>` 
+page for a description of each of the projects if you aren't sure where to put 
+your changes. 
+
+3. Set up the environment
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Set up the virtual environment used for building the documentation locally. 
@@ -35,19 +46,14 @@ Package            Details
 ``intersphinx``    We use this in order to link between different subprojects.
 ===============    ===========================================================
 
-3. Clone the project
-^^^^^^^^^^^^^^^^^^^^
-
-``git clone`` the project that you want to help with. See the :ref:`home<home>` 
-page for a description of each of the projects if you aren't sure where to put 
-your changes. 
-
 4. Create a ``docs/``  branch
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Create a new branch so you can keep your changes separate from other activites 
-on the repositories. Branches that make changes to documentation should always 
-start with  ``docs/``
+on the repositories. 
+
+.. note::
+    Branches that make changes to documentation should always start with  ``docs/``.
 
 5. Make your changes
 ^^^^^^^^^^^^^^^^^^^^
@@ -62,6 +68,17 @@ Tool     Reference
 =======  =========
 Sphinx   `Sphinx Basics`_
 =======  =========
+
+Most likely, you won't need to change the ``docs/conf.py``, 
+``docs/requorements.txt``, nor the ``.readthedocs.yaml`` configuration files. 
+Most content changes only require creating/editing ``*.rst`` files, and adding 
+images or other static content. 
+
+.. warning::
+    If the static content that you are adding has a large memory footprint in 
+    git, consider opening an issue on the repo to discuss using ``git lfs``. Do
+    not make this decision on your own, as there is a limit to ``lfs`` usage on
+    these repositories.
 
 6. Check your changes
 ^^^^^^^^^^^^^^^^^^^^^
