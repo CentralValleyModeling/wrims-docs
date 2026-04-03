@@ -25,7 +25,7 @@ intersphinx_mapping = {
     "wrims-gui": ("https://wrims-docs.readthedocs.io/projects/wrims-gui", None),
     "wresl": ("https://wrims-docs.readthedocs.io/projects/wresl", None),
 }
-intersphinx_disabled_reftypes = ["*"]
+intersphinx_disabled_reftypes = ["std"]
 
 templates_path = ["_templates"]
 
